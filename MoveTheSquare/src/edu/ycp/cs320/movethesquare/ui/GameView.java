@@ -60,8 +60,8 @@ public class GameView extends JPanel {
 	@Override
 	protected void paintComponent(Graphics g) {
 		super.paintComponent(g); // paint background
-		
-		g.setColor(Color.GREEN);
+			
+		g.setColor(Color.orange);
 
 		Square square = model.getSquare();
 		
