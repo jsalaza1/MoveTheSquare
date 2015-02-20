@@ -88,7 +88,7 @@ public class GameView extends JPanel {
 				GameView view = new GameView(model);
 				view.setController(controller);
 				
-				JFrame frame = new JFrame("Move the Square!");
+				JFrame frame = new JFrame("Move the object :D !!");
 				frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 				frame.add(view);
 				frame.pack();
